@@ -12,7 +12,6 @@ build/
 env/
 venv/
 .env
-*.env
 
 # Poetry
 poetry.lock  # Optional: Include if you don't want to track lock file
