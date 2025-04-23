@@ -98,7 +98,7 @@ spices_project/
 
    ```bash
    git clone <repository-url>
-   cd spices_project
+   cd spices_project //set .env referencing .env.example or convert .env.example to .env file
    ```
 
 2. **Build and run with Docker Compose**

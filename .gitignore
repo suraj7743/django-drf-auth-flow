@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environments
+env/
+venv/
+.env
+*.env
+
+# Poetry
+poetry.lock  # Optional: Include if you don't want to track lock file
+
+# Django
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+*.log
+
+# Docker
+docker-compose.override.yml
+*.dockerignore  # We want to track .dockerignore in this case, so not ignoring
+
+# Editor and OS Files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*~
+
+# Migrations (Optional: Uncomment if you don't want to track migrations)
+# migrations/
+
+# Test and Coverage Files
+*.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+
+# Miscellaneous
+*.bak
+*.tmp
+data.json  # Used for SQLite data dump during migration
